@@ -18,6 +18,7 @@
 		4E91A9641771D18D00E964D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E91A9631771D18D00E964D8 /* Default-568h@2x.png */; };
 		4E91A9671771D18D00E964D8 /* WhereAmIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91A9661771D18D00E964D8 /* WhereAmIViewController.m */; };
 		4E91A96A1771D18D00E964D8 /* WhereAmIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E91A9681771D18D00E964D8 /* WhereAmIViewController.xib */; };
+		4E91A9711771D36D00E964D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E91A9701771D36D00E964D8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		4E91A9651771D18D00E964D8 /* WhereAmIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereAmIViewController.h; sourceTree = "<group>"; };
 		4E91A9661771D18D00E964D8 /* WhereAmIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereAmIViewController.m; sourceTree = "<group>"; };
 		4E91A9691771D18D00E964D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhereAmIViewController.xib; sourceTree = "<group>"; };
+		4E91A9701771D36D00E964D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E91A9711771D36D00E964D8 /* CoreLocation.framework in Frameworks */,
 				4E91A94E1771D18D00E964D8 /* UIKit.framework in Frameworks */,
 				4E91A9501771D18D00E964D8 /* Foundation.framework in Frameworks */,
 				4E91A9521771D18D00E964D8 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		4E91A94C1771D18D00E964D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E91A9701771D36D00E964D8 /* CoreLocation.framework */,
 				4E91A94D1771D18D00E964D8 /* UIKit.framework */,
 				4E91A94F1771D18D00E964D8 /* Foundation.framework */,
 				4E91A9511771D18D00E964D8 /* CoreGraphics.framework */,
